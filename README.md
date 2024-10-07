@@ -1,2 +1,2 @@
-# Simple System Design Website For Flare
+# Simple Website Design For Flare
 Design Website Assignment For CMPT330L
