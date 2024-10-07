@@ -7,3 +7,7 @@ Home Page
 About Us Page
 Design Page
 Previous Work Page?
+
+--Implement--
+Navbar
+Page Designs
