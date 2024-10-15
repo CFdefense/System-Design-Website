@@ -19,7 +19,7 @@ body {
 
 .nav:hover {
     background-color: #feb130;
-    height: 55px;
+    
 }
 
 .name {
@@ -29,7 +29,7 @@ body {
     color: #363306;
     font-size: large;
 }
-.logo:hover{
-    width: 55px;
-    height: 55px;
+.logo:active{
+    width: 60px;
+    
 }
