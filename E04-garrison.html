@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refrigerator Display</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #fridge-display {
+            width: 900px;
+            height: 500px;
+            background-color: #333;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #top-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #222;
+        }
+
+        #power-button {
+            background-color: #444;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #clock {
+            font-size: 1.5em;
+        }
+
+        #main-content {
+            padding: 20px;
+        }
+
+        #display-title {
+            font-size: 1.8em;
+        }
+
+        #nav-buttons button {
+            background-color: #555;
+            border: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        #nav-buttons button:disabled {
+            background-color: #888;
+        }
+
+        #content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #content img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="fridge-display">
+        <div id="top-bar">
+            <button id="power-button" onclick="togglePower()">ON / OFF</button>
+            <div id="clock">6:38:50 AM</div>
+        </div>
+        <div id="main-content">
+            <h2 id="display-title">Viewing Netflix</h2>
+            <div id="nav-buttons">
+                <button onclick="showDisplay('temperature')">Temperature</button>
+                <button onclick="showDisplay('shelf-view')">Shelf View</button>
+                <button onclick="showDisplay('netflix')" disabled>Netflix</button>
+                <button onclick="showDisplay('browser')">Browser</button>
+                <button onclick="showDisplay('settings')">Settings</button>
+            </div>
+            <div id="content">
+                <img id="netflix-image" src="https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1080/2400x1350/filters:focal(960x540:961x541):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25479488/netflix_homepage_2.jpg" alt="Netflix Display">
+            </div>
+        </div>
+    </div>
+    <script>
+        function togglePower() {
+            const fridgeDisplay = document.getElementById("fridge-display");
+            const mainContent = document.getElementById("main-content");
+            const powerButton = document.getElementById("power-button");
+
+            if (mainContent.style.display === "none") {
+                mainContent.style.display = "block";
+                powerButton.textContent = "ON / OFF";
+            } else {
+                mainContent.style.display = "none";
+                powerButton.textContent = "Turn On";
+            }
+        }
+        
+        
+
+        setInterval(updateClock, 1000);
+
+        function showDisplay(display) {
+            const title = document.getElementById("display-title");
+            const content = document.getElementById("content");
+            const netflixImage = document.getElementById("netflix-image");
+
+            if (display === "temperature") {
+                title.textContent = "Viewing Temperature";
+                content.innerHTML = "<h3>Inside: 3°C | Freezer: -18°C</h3>";
+            } else if (display === "shelf-view") {
+                title.textContent = "Viewing Shelf";
+                content.innerHTML = `<img src="https://www.ikea.com/us/en/images/products/lagan-fridge-with-freezer-compartment-compact-white__0868284_pe658323_s5.jpg?f=s" alt="Fridge Display">`;
+            } else if (display === "netflix") {
+                title.textContent = "Viewing Netflix";
+                content.innerHTML = `<img src="${netflixImage.src}" alt="Netflix">`;
+            } else if (display === "browser") {
+                title.textContent = "Using Browser";
+                content.innerHTML = `<img src="https://cdn.pixabay.com/photo/2013/01/29/22/07/google-76659_640.png" alt="Browser Display">`;
+
+            } else if (display === "settings") {
+                title.textContent = "Viewing Settings";
+                content.innerHTML = "<h3>[Settings options]</h3>";
+            }
+        }
+    </script>
+</body>
+</html>
