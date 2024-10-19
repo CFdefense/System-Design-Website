@@ -1,58 +1,79 @@
 body {
     background-color: #fbe6bf;
-    
     margin: 0px;
 }
 
 .nav {
     display: flex;
-    height:40px;
+    height: 40px;
     width: 100%;
     background-color: #fdc360;
     padding: 0;
     margin: 0;
     border-style: none;
     border: 0px;
-    
-    
-
 }
 
 .nav:hover {
     background-color: #feb130;
-    
 }
 
 .name {
     font-family: cursive;
-    margin: 8px;
-    margin-top: 12px;
+    margin: 4px;
+    margin-top: 6px; 
     color: #363306;
     font-size: large;
 }
 
-
-.logo:active{
+.logo:active {
     width: 60px;
-    
 }
-#hero{
-    background-color: #feb130;
-    
-    border-radius: 15px;
-    width: 100%; 
-}
-.above-hero{
-    margin: 0px;
-}
-#slogan{
-    font-family: "Playwrite GB S",cursive;
 
+#hero {
+    background-color: #feb130;
+    border-radius: 15px;
+    width: 100%;
 }
-.hero-headers{
+
+.above-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px; 
+}
+
+#slogan,.main-word {
+    font-family: "Playwrite GB S", cursive;
+}
+.main-word{
+    margin: 30px;
+}
+
+.hero-headers {
     width: 10000px;
     height: 500px;
-    margin: 20px;
-    margin-top: 100px;
-    font-family: "Playwrite GB S",cursive;
+    margin: 5px; 
+    margin-left: 50px;
+    margin-top: 50px; 
+    font-family: "Playwrite GB S", cursive;
+}
+
+.why, .find-out{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+#floats{
+    display: flex;
+    margin-left: 350px;
+    margin-right: 100px;
+    
+    
+}
+
+
+.float {
+    margin-right: 100px;
+    max-width: fit-content;
+    
 }
