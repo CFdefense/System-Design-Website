@@ -139,6 +139,9 @@ a:hover {
     max-width: fit-content;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 5px 3px 3px #363306;
+    padding: 12px;
+    border-radius: 12px;
     
 }
 .slogan {
