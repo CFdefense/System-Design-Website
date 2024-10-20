@@ -144,6 +144,23 @@ a:hover {
     border-radius: 12px;
     
 }
+.float:hover{
+    box-shadow: 3px 3px #fafaf9, -1em 0 .4em #fafaf9; 
+
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fcdb9e;
+    transition: all 0.9s ease;
+}
+.float:active{
+    margin-right: 100px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 3px 3px #363306;
+    padding: 12px;
+    border-radius: 12px;
+}
 
 .slogan {
     font-family: "Playwrite GB S", cursive;
@@ -206,6 +223,16 @@ a:hover {
     margin-right: 12px;
 
 }
+.float-image:active{
+    width: 100px;
+    border-radius: 12px;
+    max-width: fit-content;
+     margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+}
+
 
 /* Adding these to ensure the layout doesn't break on very small screens. Commented out for now
 as we might not need them right now. */
