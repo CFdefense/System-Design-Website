@@ -2,7 +2,6 @@ body {
     background-color: #fbe6bf;
     margin: 0px;
 }
-
 .nav {
     display: flex;
     height: 60px;
@@ -13,11 +12,9 @@ body {
     border-style: none;
     border: 0px;
 }
-
 .nav:hover {
     background-color: #feb130;
 }
-
 .menu:before,
 .menu:after {
     content: "";
@@ -113,7 +110,7 @@ a:hover {
 }
 
 .hero-headers {
-    width: 10000px;
+    
     height: 500px;
     margin: 5px; 
     margin-left: 50px;
@@ -127,6 +124,7 @@ a:hover {
 }
 #floats{
     display: flex;
+   
     margin-left: 350px;
     margin-right: 100px;
     
@@ -146,7 +144,6 @@ a:hover {
 }
 .float:hover{
     box-shadow: 3px 3px #fafaf9, -1em 0 .4em #fafaf9; 
-
     padding: 12px;
     border-radius: 12px;
     background-color: #fcdb9e;
