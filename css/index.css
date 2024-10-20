@@ -144,6 +144,7 @@ a:hover {
     border-radius: 12px;
     
 }
+
 .slogan {
     font-family: "Playwrite GB S", cursive;
     margin: 0;
@@ -192,13 +193,233 @@ a:hover {
      margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+    transition: all 0.3s ease;
 }
 .float-text{
     margin-top: 10px;
 }
 .float-image:hover{
     border-radius: 30px;
-    width: 120px;    
+    width: 120px; 
+    transform: scale(1.2);   
+    margin-left: 12px;
+    margin-right: 12px;
 
 }
+
+/* Adding these to ensure the layout doesn't break on very small screens. Commented out for now
+as we might not need them right now. */
+/* @media screen and (max-width: 1024px) {
+    #floats {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .float {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: calc(50% - 40px);
+    }
+
+    .hero-headers {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .why, .find-out {
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        position: static;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #hamburgerNav {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #floats {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .float {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .hero-headers {
+        height: auto;
+    }
+
+    .why, .find-out {
+        font-size: 24px;
+    }
+
+    .slogan, #fireSlogan {
+        font-size: large;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.name, .slogan, #fireSlogan {
+    font-size: 1.25rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    #floats {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .float {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: calc(50% - 40px);
+    }
+
+    .hero-headers {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .why, .find-out {
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        position: static;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #hamburgerNav {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #floats {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .float {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .hero-headers {
+        height: auto;
+    }
+
+    .why, .find-out {
+        font-size: 24px;
+    }
+
+    .slogan, #fireSlogan {
+        font-size: large;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.name, .slogan, #fireSlogan {
+    font-size: 1.25rem;
+}
+
+
+* {
+    box-sizing: border-box;
+} */
+
 
