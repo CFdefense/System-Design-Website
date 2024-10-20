@@ -196,3 +196,9 @@ a:hover {
 .float-text{
     margin-top: 10px;
 }
+.float-image:hover{
+    border-radius: 30px;
+    width: 120px;    
+
+}
+
