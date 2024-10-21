@@ -170,3 +170,42 @@ a:hover {
     letter-spacing: 8px;
     text-shadow: 2px 2px 4px rgba(248, 96, 8, 0.973);
 }
+
+#footerInfo {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #fdc360;
+    padding: 2px;
+    margin: 0;
+    border-style: none;
+    border: 0px;
+    margin-top: 420px;
+}
+
+#phone {
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-wrap: nowrap;
+}
+
+#services {
+    background-color: #fdc360;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 1170px;
+}
+
+#services:hover {
+    background-color: #feb130;
+    transform: scale(1.05);
+}

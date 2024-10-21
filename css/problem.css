@@ -152,7 +152,7 @@ a:hover {
     margin-bottom: 100px;
 }
 
-button {
+button:not(#services) {
     background-color: #f04a09;
     color: white;
     padding: 12px 25px;
@@ -170,13 +170,53 @@ button {
     align-items: center;
 }
 
-button:hover {
+button:not(#services):hover {
     background-color: #feb130;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
 }
 
-button:focus {
+button:not(#services):focus {
     outline: none;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+
+#footerInfo {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #fdc360;
+    padding: 2px;
+    margin: 0;
+    border-style: none;
+    border: 0px;
+    margin-top: 100px;
+}
+
+#phone {
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-wrap: nowrap;
+}
+
+#services {
+    background-color: #fdc360;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 1165px;
+}
+
+#services:hover {
+    background-color: #feb130;
+    transform: scale(1.05);
 }

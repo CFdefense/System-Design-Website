@@ -246,6 +246,46 @@ a:hover {
     transition: all 0.3s ease;
 }
 
+#footerInfo {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #fdc360;
+    padding: 2px;
+    margin: 0;
+    border-style: none;
+    border: 0px;
+    margin-top: 265px;
+}
+
+#phone {
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-wrap: nowrap;
+}
+
+#services {
+    background-color: #fdc360;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 110px;
+}
+
+#services:hover {
+    background-color: #feb130;
+    transform: scale(1.05);
+}
+
+
 
 /* Adding these to ensure the layout doesn't break on very small screens. Commented out for now
 as we might not need them right now. */
