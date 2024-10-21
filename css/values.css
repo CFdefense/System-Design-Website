@@ -136,10 +136,39 @@ a:hover {
     appearance: none;
 }
 .above-hero{
+    font-family: "Playwrite GB S", cursive;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #feb130;
+    margin-left:350px;
+    width: 1200px;
+    border-radius: 20px;
+}
+.hero-child{
+    padding: 40px;
+    font-size: 20px;
 
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
+.tab{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #feb130;
+    border: none;
+
+}
 
 
 
