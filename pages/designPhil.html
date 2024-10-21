@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/design.css">
-    <!--<script src="../scripts/design.js"></script> Maybe Not Needed -->
+    <script src="../scripts/design.js" defer></script>
 </head>
 
 <body>
@@ -22,6 +22,7 @@
         <div id="hamburgerNav">
             <input type="checkbox" aria-label="Display the menu" class="menu">
             <ul>
+                <li><a href="/pages/index.html">Home</a></li>
                 <li><a href="/pages/AboutUs.html">About Us</a></li>
                 <li><a href="/pages/404.html">Contact Us</a></li>
             </ul>
@@ -32,20 +33,38 @@
         <h1>Design Philosophy</h1>
     </div>
 
-    </div>
     <div class="above-hero"></div>
 
     <div id="hero">
+        <div id="summary">
+            At Flare, we ignite innovation through a website that embodies our forward-thinking approach...
+        </div>
 
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-            facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-            repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-            voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
-            ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat..
-        </p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 style="text-shadow: 2px 2px 4px rgba(248, 96, 8, 0.973);">Fierce Color Palette</h1>
+                <p class="description">
+                    Our fiery orange color scheme ignites a sense of energy, warmth, and innovation...
+                </p>
+                <button>Expand</button>
+            </div>
+            <div class="hero-image">
+                <img src="../assets/images/pallete.png" alt="Design Philosophy Image 1" />
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 style="text-shadow: 2px 2px 4px rgba(248, 96, 8, 0.973);">Playwright Typography</h1>
+                <p class="description">
+                    The whimsical Playwrite font adds a playful yet bold element to our visual identity...
+                </p>
+                <button>Expand</button>
+            </div>
+            <div class="hero-image">
+                <img src="../assets/images/font.jpg" alt="Design Philosophy Image 2" />
+            </div>
+        </div>
     </div>
 </body>
 
