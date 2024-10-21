@@ -143,6 +143,7 @@ a:hover {
     
 }
 .float:hover{
+    
     box-shadow: 3px 3px #fafaf9, -1em 0 .4em #fafaf9; 
     padding: 12px;
     border-radius: 12px;
@@ -213,6 +214,7 @@ a:hover {
     margin-top: 10px;
 }
 .float-image:hover{
+    
     border-radius: 30px;
     width: 120px; 
     transform: scale(1.2);   
