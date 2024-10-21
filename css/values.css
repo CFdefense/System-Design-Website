@@ -135,6 +135,10 @@ a:hover {
     transition: all 0.3s ease;
     appearance: none;
 }
+.above-hero{
+    display: flex;
+    justify-content: center;
+}
 
 
 
