@@ -1,0 +1,19 @@
+body{
+    background-image: url("../assets/images/dog_inside_fire1.jpeg");
+
+}
+.error-header{
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+
+}
+.flames{
+    margin-top: 200px;
+}
+.fire{
+    display: flex;
+    flex-direction: column;
+}
