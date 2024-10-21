@@ -2,6 +2,7 @@ body {
     background-color: #fbe6bf;
     margin: 0px;
 }
+
 .nav {
     display: flex;
     height: 60px;
@@ -12,9 +13,11 @@ body {
     border-style: none;
     border: 0px;
 }
+
 .nav:hover {
     background-color: #feb130;
 }
+
 .menu:before,
 .menu:after {
     content: "";
@@ -80,7 +83,7 @@ a:hover {
 .name {
     font-family: cursive;
     margin: 4px;
-    margin-top: 6px; 
+    margin-top: 6px;
     color: #363306;
     font-size: large;
 }
@@ -99,36 +102,40 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6px; 
+    margin: 6px;
 }
 
-#slogan,.main-word {
+#slogan,
+.main-word {
     font-family: "Playwrite GB S", cursive;
 }
-.main-word{
+
+.main-word {
     margin: 30px;
 }
 
 .hero-headers {
-    
+
     height: 500px;
-    margin: 5px; 
+    margin: 5px;
     margin-left: 50px;
-    margin-top: 50px; 
+    margin-top: 50px;
     font-family: "Playwrite GB S", cursive;
 }
 
-.why, .find-out{
+.why,
+.find-out {
     font-size: 40px;
     margin-bottom: 0px;
 }
-#floats{
+
+#floats {
     display: flex;
-   
+
     margin-left: 350px;
     margin-right: 100px;
-    
-    
+
+
 }
 
 
@@ -140,17 +147,19 @@ a:hover {
     box-shadow: 5px 5px 3px 3px #363306;
     padding: 12px;
     border-radius: 12px;
-    
+
 }
-.float:hover{
-    
-    box-shadow: 3px 3px #fafaf9, -1em 0 .4em #fafaf9; 
+
+.float:hover {
+
+    box-shadow: 1px 3px 3px #fafaf9, .4em 0 .4em #fafaf9;
     padding: 12px;
     border-radius: 12px;
     background-color: #fcdb9e;
     transition: all 0.9s ease;
 }
-.float:active{
+
+.float:active {
     margin-right: 100px;
     max-width: fit-content;
     display: flex;
@@ -184,6 +193,7 @@ a:hover {
     right: 10px;
     display: flex;
 }
+
 .menu {
     --size: 40px;
     --color: black;
@@ -197,36 +207,40 @@ a:hover {
     transition: all 0.3s ease;
     appearance: none;
 }
-.find-out{
+
+.find-out {
     margin-bottom: 12px;
 }
 
-.float-image{
+.float-image {
     width: 100px;
     border-radius: 12px;
     max-width: fit-content;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
     transition: all 0.3s ease;
 }
-.float-text{
+
+.float-text {
     margin-top: 10px;
 }
-.float-image:hover{
-    
+
+.float-image:hover {
+
     border-radius: 30px;
-    width: 120px; 
-    transform: scale(1.2);   
+    width: 9;
+    transform: scale(1.2);
     margin-left: 12px;
     margin-right: 12px;
 
 }
-.float-image:active{
+
+.float-image:active {
     width: 100px;
     border-radius: 12px;
     max-width: fit-content;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
     transition: all 0.3s ease;
@@ -447,5 +461,3 @@ body {
 * {
     box-sizing: border-box;
 } */
-
-
