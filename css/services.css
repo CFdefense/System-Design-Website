@@ -171,11 +171,11 @@ a:hover {
 }
 
 .grid-item p {
-    color: #666;
-    font-size: 1.2em;
+    color: black;
+    font-size: 1.4em;
 }
 
-button {
+button:not(#services) {
     background-color: #f04a09;
     color: white;
     padding: 12px 25px;
@@ -193,13 +193,13 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
+button:not(#services):hover {
     background-color: #feb130;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
 }
 
-button:focus {
+button:not(#services):focus {
     outline: none;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
@@ -236,7 +236,7 @@ button:focus {
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-left: 1100px;
+    margin-left: 1155px;
 }
 
 #services:hover {
