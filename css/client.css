@@ -1,12 +1,9 @@
 body {
     background-color: #fbe6bf;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0px;
 }
 
-.icons {
+.nav {
     display: flex;
     height: 60px;
     width: 100%;
@@ -17,58 +14,8 @@ body {
     border: 0px;
 }
 
-.icons:hover {
+.nav:hover {
     background-color: #feb130;
-}
-
-.above-hero {
-    margin: 50px;
-}
-
-#hero {
-    background-color: #feb130;
-    width: 65%;
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-.slogan {
-    font-family: "Playwrite GB S", cursive;
-    margin: 0;
-    font-size: xx-large;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-#fireSlogan {
-    font-family: "Playwrite GB S", cursive;
-    margin: 0;
-    font-size: xx-large;
-    text-shadow: 2px 2px 4px rgba(255, 0, 0, 1.5);
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-#hamburgerNav {
-    position: absolute;
-    top: 9px;
-    right: 10px;
-    display: flex;
-}
-
-.menu {
-    --size: 40px;
-    --color: black;
-    height: var(--size);
-    width: var(--size);
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    appearance: none;
 }
 
 .menu:before,
@@ -133,77 +80,163 @@ a:hover {
     color: inherit;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: xxx-large;
-    margin-bottom: -75px;
-    margin-top: -20px;
-    letter-spacing: 8px;
-    text-shadow: 2px 2px 4px rgba(248, 96, 8, 0.973);
+.name {
+    font-family: cursive;
+    margin: 4px;
+    margin-top: 6px;
+    color: #363306;
+    font-size: large;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.logo:active {
+    width: 60px;
 }
 
-.grid-item {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.grid-item img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.grid-item h3 {
-    margin: 10px 0;
-    font-size: 4.2em;
-}
-
-.grid-item p {
-    color: #666;
-    font-size: 1.2em;
-}
-
-button:not(#services) {
-    background-color: #f04a09;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 50px;
+#slogan,
+.main-word {
     font-family: "Playwrite GB S", cursive;
-    font-size: 18px;
+}
+
+.slogan {
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+
+#fireSlogan {
+    font-family: "Playwrite GB S", cursive;
+    margin: 0;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 1.5);
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+#hamburgerNav {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    display: flex;
+}
+
+.menu {
+    --size: 40px;
+    --color: black;
+    height: var(--size);
+    width: var(--size);
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
     cursor: pointer;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-in-out;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    transition: all 0.3s ease;
+    appearance: none;
+}
+
+.above-hero {
+    font-family: "Playwrite GB S", cursive;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.hero {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-}
-
-button:not(#services):hover {
     background-color: #feb130;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
-    transform: translateY(-2px);
+    width: 1200px;
+    border-radius: 20px;
+    border: 3px solid #363306;
+    margin: 0 auto;
+
 }
 
-button:not(#service):focus {
-    outline: none;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+.hero-child {
+    padding: 40px;
+    font-size: 20px;
+    max-width: 1200px;
+
 }
 
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+
+}
+
+.tab {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #feb130;
+    border: none;
+    align-items: center;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Playwrite GB S", cursiveArial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    border: 1px solid #363306;
+
+}
+
+.tab:hover,
+.tab:focus {
+
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+}
+
+.tab:hover {
+    transform: translateY(-1px);
+}
+
+.tab:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.tab-pane {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tab-pane.active {
+    display: block;
+    opacity: 1;
+}
+
+.tab.active {
+    background-color: #fb8332;
+    transform: translateY(-1px);
+}
 
 #footerInfo {
     display: flex;
@@ -242,4 +275,58 @@ button:not(#service):focus {
 #services:hover {
     background-color: #feb130;
     transform: scale(1.05);
+}
+
+
+.below-hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    width: 1200px;
+    margin: 2rem auto 0; 
+    padding: 0; 
+}
+
+
+.people {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 23px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0;
+    border: 3px solid #363306;
+
+}
+
+.people:hover {
+    transform: scale(1.05);
+}
+.image-container {
+    position: relative;
+    width: 200px;
+}
+.hover-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    padding: 15px;
+    background-color: #feb130;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    border: 2px solid #363306;
+}
+.left-text {
+    right: calc(100% + 20px); 
+}
+.right-text {
+    left: calc(100% + 20px); 
+}
+.image-container:hover .hover-text {
+    opacity: 1;
 }
