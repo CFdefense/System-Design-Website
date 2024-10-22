@@ -2,6 +2,7 @@ body {
     background-color: #fbe6bf;
     margin: 0px;
 }
+
 .nav {
     display: flex;
     height: 60px;
@@ -12,9 +13,11 @@ body {
     border-style: none;
     border: 0px;
 }
+
 .nav:hover {
     background-color: #feb130;
 }
+
 .menu:before,
 .menu:after {
     content: "";
@@ -89,14 +92,10 @@ a:hover {
     width: 60px;
 }
 
-
-
-
-#slogan,.main-word {
+#slogan,
+.main-word {
     font-family: "Playwrite GB S", cursive;
 }
-
-
 
 .slogan {
     font-family: "Playwrite GB S", cursive;
@@ -122,6 +121,7 @@ a:hover {
     right: 10px;
     display: flex;
 }
+
 .menu {
     --size: 40px;
     --color: black;
@@ -135,37 +135,42 @@ a:hover {
     transition: all 0.3s ease;
     appearance: none;
 }
-.above-hero{
+
+.above-hero {
     font-family: "Playwrite GB S", cursive;
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #feb130;
-    margin-left:350px;
+    margin-left: 350px;
     width: 1200px;
     border-radius: 20px;
     border: 3px solid #363306;
-    
-    
+
+
 }
-.hero-child{
+
+.hero-child {
     padding: 40px;
     font-size: 20px;
     max-width: 1200px;
 
 }
-.tabs{
+
+.tabs {
     display: flex;
     justify-content: center;
     margin-left: 5px;
 
 }
-.tab{
+
+.tab {
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -180,7 +185,7 @@ a:hover {
     box-sizing: border-box;
     cursor: pointer;
     display: inline-flex;
-    font-family:"Playwrite GB S", cursiveArial,sans-serif;
+    font-family: "Playwrite GB S", cursiveArial, sans-serif;
     font-size: 16px;
     font-weight: 600;
     justify-content: center;
@@ -199,16 +204,20 @@ a:hover {
     border: 1px solid #363306;
 
 }
-.tab:hover,.tab:focus{
-    
-  background-color: #fb8332;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+.tab:hover,
+.tab:focus {
+
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 
 }
-.tab:hover{
+
+.tab:hover {
     transform: translateY(-1px);
 }
-.tab:active{
+
+.tab:active {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
@@ -224,10 +233,12 @@ a:hover {
     display: block;
     opacity: 1;
 }
+
 .tab.active {
     background-color: #fb8332;
     transform: translateY(-1px);
 }
+
 #footerInfo {
     display: flex;
     height: 60px;
@@ -239,6 +250,7 @@ a:hover {
     border: 0px;
     margin-top: 565px;
 }
+
 #phone {
     font-family: "Playwrite GB S", cursive;
     margin: 0;
@@ -265,9 +277,3 @@ a:hover {
     background-color: #feb130;
     transform: scale(1.05);
 }
-
-
-
-
-
-

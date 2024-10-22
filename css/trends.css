@@ -5,11 +5,11 @@
 .content h1 {
     color: #110a04;
     font-size: 2.5em;
-    font-family:"Playwrite GB S", cursive;
+    font-family: "Playwrite GB S", cursive;
 }
 
 .content p {
-    font-family:"Playwrite GB S", cursive;
+    font-family: "Playwrite GB S", cursive;
     color: #110a04;
     font-size: 1.50em;
     max-width: 800px;
@@ -27,7 +27,7 @@
     height: 300px;
     border-radius: 30px;
     border: 4px solid #363306;
-    
+
 }
 
 body {
@@ -207,11 +207,10 @@ a:hover {
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-left: 1170px;
+    margin-left: 1140px;
 }
 
 #services:hover {
     background-color: #feb130;
     transform: scale(1.05);
 }
-

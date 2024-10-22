@@ -35,7 +35,7 @@ body {
     background-color: #fdc360;
     border-style: none;
     border: 0px;
-    bottom: -5px;
+    bottom: -200px;
     right: 0;
 }
 
@@ -47,6 +47,7 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     text-wrap: nowrap;
+    margin-right: -25px;
 }
 
 #services {
