@@ -236,7 +236,7 @@ button:not(#services):focus {
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-left: 1155px;
+    margin-left: 1190px;
 }
 
 #services:hover {
